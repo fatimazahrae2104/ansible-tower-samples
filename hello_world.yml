@@ -5,4 +5,5 @@
       debug:
         msg: "Hello World!!!!!"
     - name: test One
-      shell: echo "Hi! Tower is working!"
+      ping:
+        data: crash
