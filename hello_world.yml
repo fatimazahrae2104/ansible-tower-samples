@@ -5,4 +5,6 @@
       debug:
         msg: "Hello World!!!!!"
     - name: test One
-      ping:
+      yum:
+        name: httpd
+        state: latest
