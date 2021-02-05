@@ -6,4 +6,3 @@
         msg: "Hello World!!!!!"
     - name: test One
       ping:
-        data: crash
