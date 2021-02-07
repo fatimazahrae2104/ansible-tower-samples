@@ -9,5 +9,5 @@
         name: httpd
         state: latest
       become: yes
-      become_method: su
+      become_method: sudo
       become_user: root
