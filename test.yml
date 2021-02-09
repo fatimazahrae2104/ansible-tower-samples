@@ -1,5 +1,5 @@
----
-- hosts: all
+- name: apache1 playbook
+  hosts: all
   sudo: yes
   tasks:
     - name: install apache2
