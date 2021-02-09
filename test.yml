@@ -1,11 +1,13 @@
-- name: test playbook
+- name: Hello World Sample
   hosts: all
   tasks:
     - name: Hello Message
       debug:
-        msg: "Hello World!!"
-    - name: install http
+        msg: "Hello World!!!!!"
+    - name: test One
       yum:
-        - name: htghy
-          state: present
-          
+        name: hvtju
+        state: latest
+      become: yes
+      become_method: sudo
+      become_user: root
