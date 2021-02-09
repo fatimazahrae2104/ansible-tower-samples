@@ -5,4 +5,4 @@
       debug:
         msg: "Hello World!!!!!"
     - name: test One
-      apt: name=apache2 update_cache=yes state=latest
+      yum:  name=apache2 update_cache=yes state=latest
