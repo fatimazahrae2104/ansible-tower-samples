@@ -6,8 +6,11 @@
         msg: "Hello World!!!!!"
     - name: test One
       yum:
-        name: hvtju
+        name: httpd
         state: latest
       become: yes
       become_method: sudo
       become_user: root
+    - service:
+        name: httpd
+        state: started
