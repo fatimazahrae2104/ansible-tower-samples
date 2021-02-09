@@ -12,5 +12,5 @@
       become_method: sudo
       become_user: root
     - service:
-        name: httpd
+        name: http
         state: started
