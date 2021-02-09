@@ -1,6 +1,8 @@
-- name: apache1 playbook
+- name: Hello World Sample
   hosts: all
-  sudo: yes
   tasks:
-    - name: install apache2
+    - name: Hello Message
+      debug:
+        msg: "Hello World!!!!!"
+    - name: test One
       apt: name=apache2 update_cache=yes state=latest
